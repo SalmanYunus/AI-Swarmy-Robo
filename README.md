@@ -8,7 +8,13 @@ Swarmy Robo JS is an interactive simulation developed to prototype, benchmark, a
 
 This project showcases a robot swarm simulation utilizing state-of-the-art machine learning in Swarm Robotics. Tasks such as foraging, clustering, and pheromone trail following provide insights into swarm behavior. Integration of AI methods enhances swarm adaptability and decision-making in dynamic environments, highlighting the AI-robotics synergy.
 
-https://bots.cs.mun.ca/waggle1/waggle.html#TUTORIAL
+### Key Activities Links
+
+* [Basic Tutorial ](https://bots.cs.mun.ca/waggle1/waggle.html#TUTORIAL)
+* (https://bots.cs.mun.ca/waggle1/waggle.html#PRE_CLUSTER)
+* (https://bots.cs.mun.ca/waggle1/waggle.html#SIMPLE_CLUSTER)
+* 
+* 
 
 ### Built with:
 * [Matter.js](https://github.com/liabru/matter-js): Physics engine.
