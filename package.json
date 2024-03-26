@@ -1,0 +1,37 @@
+{
+  "name": "swarmjs",
+  "version": "1.0.0",
+  "description": "Simulation of a distributed multi-robot collision avoidance algorithm based on the concept of Buffered Voronoi Cells (BVC)*.\\\r An algorithm for deadlock prediction, deadlock recovery, and deadlock recovery success prediction is proposed and implemented.\\\r Deadlock avoidance with right-hand heuristics is also implemented for comparison.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "(cd src/client && npm install) && (cd src/common && npm install) && (cd src/scenes && npm install)",
+    "build": "cd src/client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd src/client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-abdulhak/SwarmJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-abdulhak/SwarmJS/issues"
+  },
+  "homepage": "https://github.com/m-abdulhak/SwarmJS#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "file-loader": "^6.2.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.1",
+    "js-graph-algorithms": "^1.0.18"
+  }
+}
