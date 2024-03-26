@@ -1,9 +1,5 @@
-<h1 align="center">
-AI_Swarmy_Robo
 
-</h1>
-
-## About
+## AI_Swarmy_Robo
 Swarmy Robo JS is an interactive simulation developed to prototype, benchmark, and showcase control algorithms for multi robot systems.
 
 This project showcases a robot swarm simulation utilizing state-of-the-art machine learning in Swarm Robotics. Tasks such as foraging, clustering, sorting, fireflies, and pheromone trail following provide insights into swarm behavior. Integration of AI methods enhances swarm adaptability and decision-making in dynamic environments, highlighting the AI-robotics synergy.
